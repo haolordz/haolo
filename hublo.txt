@@ -1,0 +1,24 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Sol's rng xam c by hao", HidePremium = false, SaveConfig = true, ConfigFolder = "Sol's"})
+
+local Tab =
+    Window:MakeTab(
+    {
+        Name = "Main",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "Auto Claim Exp Obby",
+        Callback = function()
+            autoclaimexpobby()
+        
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+                CFrame.new(199.33197, 124.231911, 342.583984, -0.914771497, -4.57729072e-08, -0.403971702, -6.42572084e-09, 1, -9.8756523e-08, 0.403971702, -8.77438424e-08, -0.914771497)
+        end
+    }
+)
+        
